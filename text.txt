@@ -1,0 +1,57 @@
+mongod --dbpath=C:/mongodb-data
+npm init
+npm install express --save
+npm install  --save jsonwebtoken bcryptjs
+npm run dev
+npm install --save-dev cross-env
+
+npm install --save-dev chai-http
+
+
+
+__dirname
+
+
+       <fa-icon [icon]="faSearch"></fa-icon>
+
+npm install -g @angular/cli
+ng new my-workspace --createApplication ="false"
+cd my-workspace
+ng generate application my-app
+ng generate library my-lib
+ng server --open
+
+
+
+
+
+ng generate component global/header
+ng generate component global/logo
+ng generate component global/search
+ng generate component global/util-nav
+ng generate component global/menu
+ng generate component global/footer
+
+
+
+
+ng generate component home
+ng generate component hero
+ng generate component shop-features
+
+
+npx create-react-app my-app
+npm start
+
+rce
+
+npm install -s axio
+
+
+
+
+
+
+
+
+

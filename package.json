@@ -1,0 +1,29 @@
+{
+  "name": "10-23-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ejercicio1.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cross-env": "^6.0.3",
+    "mocha": "^6.2.2",
+    "mongodb-memory-server": "^6.0.1"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "test": "mocha  --recursive  --timeout 5000 --exit"
+  },
+  "author": "",
+  "license": "ISC"
+}
