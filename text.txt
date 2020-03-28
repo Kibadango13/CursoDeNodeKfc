@@ -22,6 +22,13 @@ ng generate library my-lib
 ng server --open
 
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Kibadango13/CursoDeNodeKfc.git
+git push -u origin master
+
+
 
 
 
